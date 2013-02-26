@@ -7,7 +7,9 @@
 //
 
 #import "FMAppDelegate.h"
-
+#import "FMIndexViewController.h"
+#import "FMContactViewController.h"
+#import "FMHelpViewController.h"
 @implementation FMAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -18,9 +20,22 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UIViewController *viewController1 = [[FMIndexViewController alloc] initWithNibName:@"FMIndexViewController" bundle:nil];
+    UIViewController *viewController2 = [[FMHelpViewController alloc] initWithNibName:@"FMHelpViewController" bundle:nil];
+    UIViewController *vcontroller3 = [[UIViewController alloc]init];
+    UIViewController *vcontroller4 = [[UIViewController alloc]init];
+    
+    UINavigationController *firstTabNaviController = [[UINavigationController alloc]initWithRootViewController:viewController1];
+    UINavigationController *secondTabNaviController = [[UINavigationController alloc]initWithRootViewController:viewController2];
+    
+    
+    self.tabBarController = [[UITabBarController alloc] init];
+    self.tabBarController.viewControllers = @[firstTabNaviController, secondTabNaviController,vcontroller3,vcontroller4];
+    self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

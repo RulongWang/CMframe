@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C42393B16DC8E1D007E469D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C42393A16DC8E1D007E469D /* background.png */; };
+		2C42394216DC8F0D007E469D /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C42393C16DC8F0D007E469D /* img4.jpg */; };
+		2C42394316DC8F0D007E469D /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C42393D16DC8F0D007E469D /* img3.jpg */; };
+		2C42394416DC8F0D007E469D /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C42393E16DC8F0D007E469D /* img2.jpg */; };
+		2C42394516DC8F0D007E469D /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C42393F16DC8F0D007E469D /* img1.jpg */; };
+		2C42394916DC8FEC007E469D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C42394816DC8FEC007E469D /* QuartzCore.framework */; };
+		2C42394D16DC9359007E469D /* FMDetailContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C42394B16DC9358007E469D /* FMDetailContentViewController.m */; };
+		2C42394E16DC9359007E469D /* FMDetailContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C42394C16DC9359007E469D /* FMDetailContentViewController.xib */; };
 		2CE34ABD16DBB816003610E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE34ABC16DBB816003610E3 /* UIKit.framework */; };
 		2CE34ABF16DBB816003610E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE34ABE16DBB816003610E3 /* Foundation.framework */; };
 		2CE34AC116DBB816003610E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE34AC016DBB816003610E3 /* CoreGraphics.framework */; };
@@ -18,9 +26,29 @@
 		2CE34AD316DBB816003610E3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CE34AD216DBB816003610E3 /* Default@2x.png */; };
 		2CE34AD516DBB816003610E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CE34AD416DBB816003610E3 /* Default-568h@2x.png */; };
 		2CE34AD816DBB816003610E3 /* CMframe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CE34AD616DBB816003610E3 /* CMframe.xcdatamodeld */; };
+		2CE34AE216DBB9B6003610E3 /* FMIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE34AE016DBB9B6003610E3 /* FMIndexViewController.m */; };
+		2CE34AE316DBB9B6003610E3 /* FMIndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE34AE116DBB9B6003610E3 /* FMIndexViewController.xib */; };
+		2CE34AE716DBB9EE003610E3 /* FMContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE34AE516DBB9EE003610E3 /* FMContactViewController.m */; };
+		2CE34AE816DBB9EE003610E3 /* FMContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE34AE616DBB9EE003610E3 /* FMContactViewController.xib */; };
+		2CE34AEC16DBBA07003610E3 /* FMCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE34AEA16DBBA07003610E3 /* FMCommentViewController.m */; };
+		2CE34AED16DBBA07003610E3 /* FMCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE34AEB16DBBA07003610E3 /* FMCommentViewController.xib */; };
+		2CE34AF116DBBA1E003610E3 /* FMCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE34AEF16DBBA1E003610E3 /* FMCategoryViewController.m */; };
+		2CE34AF216DBBA1E003610E3 /* FMCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE34AF016DBBA1E003610E3 /* FMCategoryViewController.xib */; };
+		2CE34AF616DBBAE8003610E3 /* FMHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE34AF416DBBAE8003610E3 /* FMHelpViewController.m */; };
+		2CE34AF716DBBAE8003610E3 /* FMHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE34AF516DBBAE8003610E3 /* FMHelpViewController.xib */; };
+		2CE34AFF16DBBEF7003610E3 /* FMTablelistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE34AFE16DBBEF7003610E3 /* FMTablelistViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C42393A16DC8E1D007E469D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		2C42393C16DC8F0D007E469D /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img4.jpg; sourceTree = "<group>"; };
+		2C42393D16DC8F0D007E469D /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
+		2C42393E16DC8F0D007E469D /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		2C42393F16DC8F0D007E469D /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		2C42394816DC8FEC007E469D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2C42394A16DC9358007E469D /* FMDetailContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDetailContentViewController.h; path = CMframe/FMDetailContentViewController.h; sourceTree = "<group>"; };
+		2C42394B16DC9358007E469D /* FMDetailContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDetailContentViewController.m; path = CMframe/FMDetailContentViewController.m; sourceTree = "<group>"; };
+		2C42394C16DC9359007E469D /* FMDetailContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FMDetailContentViewController.xib; path = CMframe/FMDetailContentViewController.xib; sourceTree = "<group>"; };
 		2CE34AB816DBB816003610E3 /* CMframe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMframe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE34ABC16DBB816003610E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2CE34ABE16DBB816003610E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +64,23 @@
 		2CE34AD216DBB816003610E3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2CE34AD416DBB816003610E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2CE34AD716DBB816003610E3 /* CMframe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CMframe.xcdatamodel; sourceTree = "<group>"; };
+		2CE34ADF16DBB9B6003610E3 /* FMIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMIndexViewController.h; path = CMframe/FMIndexViewController.h; sourceTree = "<group>"; };
+		2CE34AE016DBB9B6003610E3 /* FMIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMIndexViewController.m; path = CMframe/FMIndexViewController.m; sourceTree = "<group>"; };
+		2CE34AE116DBB9B6003610E3 /* FMIndexViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FMIndexViewController.xib; path = CMframe/FMIndexViewController.xib; sourceTree = "<group>"; };
+		2CE34AE416DBB9EE003610E3 /* FMContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMContactViewController.h; path = CMframe/FMContactViewController.h; sourceTree = "<group>"; };
+		2CE34AE516DBB9EE003610E3 /* FMContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMContactViewController.m; path = CMframe/FMContactViewController.m; sourceTree = "<group>"; };
+		2CE34AE616DBB9EE003610E3 /* FMContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FMContactViewController.xib; path = CMframe/FMContactViewController.xib; sourceTree = "<group>"; };
+		2CE34AE916DBBA07003610E3 /* FMCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMCommentViewController.h; path = CMframe/FMCommentViewController.h; sourceTree = "<group>"; };
+		2CE34AEA16DBBA07003610E3 /* FMCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMCommentViewController.m; path = CMframe/FMCommentViewController.m; sourceTree = "<group>"; };
+		2CE34AEB16DBBA07003610E3 /* FMCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FMCommentViewController.xib; path = CMframe/FMCommentViewController.xib; sourceTree = "<group>"; };
+		2CE34AEE16DBBA1E003610E3 /* FMCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMCategoryViewController.h; path = CMframe/FMCategoryViewController.h; sourceTree = "<group>"; };
+		2CE34AEF16DBBA1E003610E3 /* FMCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMCategoryViewController.m; path = CMframe/FMCategoryViewController.m; sourceTree = "<group>"; };
+		2CE34AF016DBBA1E003610E3 /* FMCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FMCategoryViewController.xib; path = CMframe/FMCategoryViewController.xib; sourceTree = "<group>"; };
+		2CE34AF316DBBAE8003610E3 /* FMHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMHelpViewController.h; path = CMframe/FMHelpViewController.h; sourceTree = "<group>"; };
+		2CE34AF416DBBAE8003610E3 /* FMHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMHelpViewController.m; path = CMframe/FMHelpViewController.m; sourceTree = "<group>"; };
+		2CE34AF516DBBAE8003610E3 /* FMHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FMHelpViewController.xib; path = CMframe/FMHelpViewController.xib; sourceTree = "<group>"; };
+		2CE34AFD16DBBEF7003610E3 /* FMTablelistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMTablelistViewController.h; path = CMframe/FMTablelistViewController.h; sourceTree = "<group>"; };
+		2CE34AFE16DBBEF7003610E3 /* FMTablelistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMTablelistViewController.m; path = CMframe/FMTablelistViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C42394916DC8FEC007E469D /* QuartzCore.framework in Frameworks */,
 				2CE34ABD16DBB816003610E3 /* UIKit.framework in Frameworks */,
 				2CE34ABF16DBB816003610E3 /* Foundation.framework in Frameworks */,
 				2CE34AC116DBB816003610E3 /* CoreGraphics.framework in Frameworks */,
@@ -53,9 +99,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C42393816DC8DAB007E469D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2C42393C16DC8F0D007E469D /* img4.jpg */,
+				2C42393D16DC8F0D007E469D /* img3.jpg */,
+				2C42393E16DC8F0D007E469D /* img2.jpg */,
+				2C42393F16DC8F0D007E469D /* img1.jpg */,
+				2C42393A16DC8E1D007E469D /* background.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		2CE34AAD16DBB816003610E3 = {
 			isa = PBXGroup;
 			children = (
+				2CE34ADE16DBB921003610E3 /* Controller */,
 				2CE34AC416DBB816003610E3 /* CMframe */,
 				2CE34ABB16DBB816003610E3 /* Frameworks */,
 				2CE34AB916DBB816003610E3 /* Products */,
@@ -73,6 +132,7 @@
 		2CE34ABB16DBB816003610E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C42394816DC8FEC007E469D /* QuartzCore.framework */,
 				2CE34ABC16DBB816003610E3 /* UIKit.framework */,
 				2CE34ABE16DBB816003610E3 /* Foundation.framework */,
 				2CE34AC016DBB816003610E3 /* CoreGraphics.framework */,
@@ -95,6 +155,7 @@
 		2CE34AC516DBB816003610E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2C42393816DC8DAB007E469D /* images */,
 				2CE34AC616DBB816003610E3 /* CMframe-Info.plist */,
 				2CE34AC716DBB816003610E3 /* InfoPlist.strings */,
 				2CE34ACA16DBB816003610E3 /* main.m */,
@@ -104,6 +165,33 @@
 				2CE34AD416DBB816003610E3 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CE34ADE16DBB921003610E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CE34ADF16DBB9B6003610E3 /* FMIndexViewController.h */,
+				2CE34AE016DBB9B6003610E3 /* FMIndexViewController.m */,
+				2CE34AE116DBB9B6003610E3 /* FMIndexViewController.xib */,
+				2CE34AE416DBB9EE003610E3 /* FMContactViewController.h */,
+				2CE34AE516DBB9EE003610E3 /* FMContactViewController.m */,
+				2CE34AE616DBB9EE003610E3 /* FMContactViewController.xib */,
+				2CE34AE916DBBA07003610E3 /* FMCommentViewController.h */,
+				2CE34AEA16DBBA07003610E3 /* FMCommentViewController.m */,
+				2CE34AEB16DBBA07003610E3 /* FMCommentViewController.xib */,
+				2CE34AEE16DBBA1E003610E3 /* FMCategoryViewController.h */,
+				2CE34AEF16DBBA1E003610E3 /* FMCategoryViewController.m */,
+				2CE34AF016DBBA1E003610E3 /* FMCategoryViewController.xib */,
+				2CE34AF316DBBAE8003610E3 /* FMHelpViewController.h */,
+				2CE34AF416DBBAE8003610E3 /* FMHelpViewController.m */,
+				2CE34AF516DBBAE8003610E3 /* FMHelpViewController.xib */,
+				2CE34AFD16DBBEF7003610E3 /* FMTablelistViewController.h */,
+				2CE34AFE16DBBEF7003610E3 /* FMTablelistViewController.m */,
+				2C42394A16DC9358007E469D /* FMDetailContentViewController.h */,
+				2C42394B16DC9358007E469D /* FMDetailContentViewController.m */,
+				2C42394C16DC9359007E469D /* FMDetailContentViewController.xib */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +250,17 @@
 				2CE34AD116DBB816003610E3 /* Default.png in Resources */,
 				2CE34AD316DBB816003610E3 /* Default@2x.png in Resources */,
 				2CE34AD516DBB816003610E3 /* Default-568h@2x.png in Resources */,
+				2CE34AE316DBB9B6003610E3 /* FMIndexViewController.xib in Resources */,
+				2CE34AE816DBB9EE003610E3 /* FMContactViewController.xib in Resources */,
+				2CE34AED16DBBA07003610E3 /* FMCommentViewController.xib in Resources */,
+				2CE34AF216DBBA1E003610E3 /* FMCategoryViewController.xib in Resources */,
+				2CE34AF716DBBAE8003610E3 /* FMHelpViewController.xib in Resources */,
+				2C42393B16DC8E1D007E469D /* background.png in Resources */,
+				2C42394216DC8F0D007E469D /* img4.jpg in Resources */,
+				2C42394316DC8F0D007E469D /* img3.jpg in Resources */,
+				2C42394416DC8F0D007E469D /* img2.jpg in Resources */,
+				2C42394516DC8F0D007E469D /* img1.jpg in Resources */,
+				2C42394E16DC9359007E469D /* FMDetailContentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +274,13 @@
 				2CE34ACB16DBB816003610E3 /* main.m in Sources */,
 				2CE34ACF16DBB816003610E3 /* FMAppDelegate.m in Sources */,
 				2CE34AD816DBB816003610E3 /* CMframe.xcdatamodeld in Sources */,
+				2CE34AE216DBB9B6003610E3 /* FMIndexViewController.m in Sources */,
+				2CE34AE716DBB9EE003610E3 /* FMContactViewController.m in Sources */,
+				2CE34AEC16DBBA07003610E3 /* FMCommentViewController.m in Sources */,
+				2CE34AF116DBBA1E003610E3 /* FMCategoryViewController.m in Sources */,
+				2CE34AF616DBBAE8003610E3 /* FMHelpViewController.m in Sources */,
+				2CE34AFF16DBBEF7003610E3 /* FMTablelistViewController.m in Sources */,
+				2C42394D16DC9359007E469D /* FMDetailContentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +391,7 @@
 				2CE34ADD16DBB816003610E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
